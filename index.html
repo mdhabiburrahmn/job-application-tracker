@@ -31,15 +31,24 @@
     <main>
 
 <div class=" w-[80%] mx-auto mt-10 flex flex-wrap gap-2 mb-5 ">
-    <button class="px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200">
+    <button 
+    id="tab-all"
+    onclick="switchTab('all')"
+    class="px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200">
         All
     </button>
 
-    <button class="px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200">
+    <button 
+     id="tab-interview"
+    onclick="switchTab('interview')"
+    class="px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200">
         Interview
     </button>
 
-    <button class="px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200">
+    <button 
+     id="tab-rejected"
+    onclick="switchTab('rejected')"
+    class="px-5 py-1.5 rounded-full border-2 text-sm font-medium cursor-pointer transition-all duration-200">
         Rejected
     </button>
 </div>
